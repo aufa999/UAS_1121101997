@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nama_barangs",
+  "info": {
+    "singularName": "nama-barang",
+    "pluralName": "nama-barangs",
+    "displayName": "Nama Barang"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_barang": {
+      "type": "string"
+    },
+    "jenis_barang": {
+      "type": "string"
+    },
+    "stok_barang": {
+      "type": "integer"
+    },
+    "harga_barang": {
+      "type": "biginteger"
+    },
+    "supplyer": {
+      "type": "string"
+    }
+  }
+}
